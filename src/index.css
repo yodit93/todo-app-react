@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/todo-list-bac.jpg);
+  width: 100vw;
+  height: 100vh;
+}
+
+.todo-cont {
+  width: 60%;
+  height: auto;
+  background-color: rgb(241, 194, 73);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 2%;
+}
+
+.todo-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+.todo-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 1px;
+  height: auto;
+  padding: 3%;
+}
+
+.list-rapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.todo-status {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: rgb(241, 194, 73);
+  border: none;
+  font-size: 1.5rem;
+}
+
+.text-input {
+  width: 100%;
+  height: 5vh;
+  padding: 1%;
+  border: 1px solid #dfdfdf;
+  outline: none;
+}
+
+.input-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  height: 7vh;
+  padding: 3%;
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 18px;
+}
+
+#write-todo {
+  border: none;
+  width: 100%;
+  height: 6.5vh;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.add-todo {
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+}
